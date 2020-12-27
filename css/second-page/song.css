@@ -1,0 +1,72 @@
+.play {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  height: 55%;
+  width: 100%;
+}
+
+.play__img {
+  width: 60%;
+  height: width;
+
+  border-radius: 20px;
+  box-shadow: 8px 16px 20px #fcb62b;
+
+  margin: 10% 0px;
+}
+
+.play__info-title {
+  font-size: 20px;
+  font-weight: 900;
+}
+.play__info-singer {
+  font-size: 10px;
+  opacity: 0.6;
+}
+
+.play__info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.play__info-title {
+  margin-bottom: 5%;
+}
+
+.status {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 100%;
+  height: 5%;
+  margin: 15% 0px 8% 0px;
+}
+
+.status__time {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  font-size: 8px;
+  opacity: 0.4;
+}
+
+.status__bar {
+  width: 80%;
+  background: black;
+}
+
+.playctrl {
+  margin: 5% 0px 0px 10%;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.fa-sync,
+.fa-random {
+  opacity: 0.4;
+}

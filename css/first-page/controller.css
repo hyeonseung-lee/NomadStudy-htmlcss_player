@@ -1,0 +1,37 @@
+.controller {
+  width: 85%;
+  height: 17%;
+  margin: 1% 4%;
+
+  background-color: black;
+  color: white;
+  border-radius: 50px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.controller__info {
+  margin: 3% 0px 3% 30px;
+}
+.controller__info-title {
+  font-size: 15px;
+  font-weight: 800;
+
+  margin-top: 10px;
+}
+.controller__info-singer {
+  font-size: 9px;
+  opacity: 0.4;
+}
+.controller__btns {
+  margin-right: 30px;
+  width: 20%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
